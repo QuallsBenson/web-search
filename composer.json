@@ -1,0 +1,17 @@
+{
+    "name": "quallsbenson/web-search",
+    "description": "Loosely coupled library for perform searches on various sources of data",
+    "authors": [
+        {
+            "name": "Richard Lee",
+            "email": "richard.lee@quallsbenson.com"
+        }
+    ],
+    "require": { },
+    "autoload": {
+      "psr-0": {
+        "Quallsbenson\\WebComponents\\Search": ""
+      }
+    },
+    "target-dir": "Quallsbenson/WebComponents/Search"
+}
