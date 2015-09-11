@@ -1,9 +1,10 @@
 <?php namespace Quallsbenson\WebComponents\Search;
 
 use Quallsbenson\WebComponents\Search\Interfaces\SearchResultInterface;
+use Quallsbenson\WebComponents\Search\Interfaces\SearchResultProviderInterface;
 use Quallsbenson\WebComponents\Search\Interfaces\SearchResultFilterInterface;
 
-class SearchResultProvider{
+class SearchResultProvider implements SearchResultProviderInterface{
 
 
 	protected $results = [],
